@@ -12,6 +12,20 @@ return {
             { 'label',    'label_description', gap = 1 },
             { 'kind_icon' }
           },
+          components = {
+            label = {
+              width = { fill = true, max = 14 },
+            },
+            label_description = {
+              width = { max = 14 },
+            },
+            source_name = {
+              width = { max = 14 },
+            },
+            source_id = {
+              width = { max = 14 },
+            },
+          }
         }
       },
       documentation = {
